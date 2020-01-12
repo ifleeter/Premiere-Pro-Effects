@@ -79,11 +79,13 @@ sleep 5
 MouseMove, iconX, iconY, 0
 
 sleep 5
-MouseClick, Left, %xposP%, %yposP%, 2, 0
+MouseClickDrag, Left, %xposP%, %yposP%, 2, 0
 
 
 sleep 5
 MouseClick, middle, , , 1
+
+
 
 blockinput, MouseMoveOff
 BlockInput, off
